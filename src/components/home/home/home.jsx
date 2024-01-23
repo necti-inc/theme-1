@@ -1,8 +1,5 @@
-import Brands from "@/common/brands";
 import React from "react";
 import About from "./about";
-import Appointment from "./appointment";
-import Blog from "./blog";
 import Counter from "../../../common/counter";
 import Cta_Area from "./cta-area";
 import Feedback from "./feedback";
@@ -22,11 +19,8 @@ const HomeOne = () => {
       <Gallery />
       <Specialists />
       <Cta_Area />
-      {/*<Appointment />*/}
       <Team />
       <Feedback />
-      {/*<Brands />*/}
-      {/*<Blog />*/}
     </>
   );
 };
